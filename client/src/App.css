@@ -1,0 +1,81 @@
+.App {
+  align-items: center;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  padding: 40px;
+  width: 100%;
+  max-width: 900px;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-card-bordered {
+  display: block !important;
+  width: 100% !important;
+  max-width: 850px;
+  margin: 10px auto !important;
+}
+
+
+
+.ant-card-body {
+  padding: 10px !important;
+}
+
+.ant-card-body p {
+  background-color: rgb(249, 232, 232) !important;
+  margin-top: 0;
+  padding: 0.5rem 1rem;
+}
+
+
+h2, h3 {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.ant-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
